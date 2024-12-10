@@ -41,9 +41,13 @@ public class ArrayTest06 {
             System.out.println();
         }
 
+        
+
+        // git 파일 업로드
         // 1.git add . : 파일을 저장소에 올릴 준비
         // 1-1.git status : 어떤 파일이 변경되었는지 보여주는 명령어
         // 2.git commit -m : "깃허브에 올리는 메모"
+        // 2 -> git commit -m "feat:변경된내용어쩌구"<- 개발자들의 약속
         //3.git push : 저장소에 "밀어올리는" 명령
 
 
