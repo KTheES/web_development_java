@@ -21,12 +21,19 @@ public class ProductMain {
         //이 상품은 일반 카테고리입니다. -> getter를 활용하여 해당 출력문이 콘솔에 나오도록
         //작성하시오. -> ProductMain에 작성하세요.
 
-        System.out.println("이 상품은"+item1.getName()+"입니다.");
-        System.out.println("이 상품은"+item1.getCategory()+"입니다.");
+        System.out.println("이 상품은 "+item1.getName()+"입니다.");
+        System.out.println("이 상품은 "+item1.getCategory()+"입니다.");
+
+
         // Product 객체를 생성하세요.
         //전자 제품, 가전, 100000, 10로 생성하고, displayInfo()를 통해서 콘솔에 정보를 출력하세요.
-
+        Product product1 = new Product("전자 제품","가전",100000,10);
+        System.out.println();
+        product1.displayInfo();     // 서브 클래스의 고유 메서드
         //Product1의 이름을 "가전 제품" 으로 바꾸고, getName을 통해 바뀐 것을 콘솔창에 출력하시오.
+        System.out.println();
+        product1.setName("가전 제품");  // 슈퍼 클래스의 메서드
+        System.out.println(product1.getName()); // 슈퍼 클래스의 메서드
 
         /*
             git config user.name
@@ -40,10 +47,9 @@ public class ProductMain {
             검색 > 자격 증명 관리자 > 입력한거 튀어나옵니다
             제거 후 git commit -m "feat:Array additional lessons and inheritance"
          */
+
+
+
+
     }
-
-
-
-
-
 }

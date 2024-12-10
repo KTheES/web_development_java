@@ -5,7 +5,7 @@ public class Product extends Item{
     private int stock;
 
     //AllArgsConstructor로 만들기 위해 부모 클래스에 없는 필드를 추가합니다.
-    public Product(String name, String category) {
+    public Product(String name, String category,int price,int stock) {
         super(name, category);
         System.out.println("Product가 생성되었습니다.");
         //여러분들은 기본적으로 사용하던 방식의 생성자 내부에 필드 대입하는 코드를 작성해야 함.

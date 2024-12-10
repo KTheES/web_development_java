@@ -28,4 +28,7 @@ public class Tiger extends Animal{      //클래스명 extends 부모클래스 �
     }
 
 
+
+
+
 }
