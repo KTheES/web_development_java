@@ -48,6 +48,17 @@ public class StudentMap {
         Collection <String> values = studentMap.values();
         System.out.println("values 출력 : "+values);
 
+        /*
+        git clone
+         : c드라이브에 빈 파일 생성 이후 github에서 코드 url 긁어오기
+         git clone 코드url붙여넣기
+         파일 안에 있는 파일 열기(jdk 버전 유의하기)
+         끝
+         */
+        /*
+            c21_json 패키지 생성
+            JSON01.java 생성
+         */
 
 
 
